@@ -1,0 +1,28 @@
+.top-govpadrao > img {
+    width: 165px;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -webkit-box-shadow: 0px 7px 5px -6px rgba(2, 50, 95, 0.66);
+    -moz-box-shadow: 0px 7px 5px -6px rgba(2, 50, 95, 0.66);
+    box-shadow: 0px 7px 5px -6px rgba(2, 50, 95, 0.66);
+}
+
+/* responsivo */
+@media (min-width: 960px){
+ .page-header .heading-elements {
+    right: 111px;
+}
+ .page-header .heading-elements img{
+     width: 350px;
+ }
+
+}
+@media (min-width: 450px) {
+    .page-header .heading-elements img {
+        width: 350px;
+    }
+}

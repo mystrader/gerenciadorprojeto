@@ -1,0 +1,27 @@
+{
+  "name": "ProjetoSefaz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "drilldown": "^0.1.1",
+    "jquery": "^2.1.4",
+    "jquery.nicescroll": "^3.7.6",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-router-dom": "^4.2.2",
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"json-server --watch db.json -p3001\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "json-server": "^0.12.1"
+  }
+}
